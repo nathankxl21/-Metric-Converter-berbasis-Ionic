@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            Metric Converter
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-item>
+        <ion-label position="floating">Kilometers</ion-label>
+        <ion-input [(ngModel)]="kilometers"></ion-input>
+    </ion-item>
+    <ion-button expand="full" (click)="convertToMiles()">Convert to Miles</ion-button>
+    <ion-item>
+        <ion-label position="floating">Miles</ion-label>
+        <ion-input [(ngModel)]="miles"></ion-input>
+    </ion-item>
+    <ion-button expand="full" (click)="convertToKilometers()">Convert to Kilometers</ion-button>
+</ion-content>

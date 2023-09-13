@@ -1,0 +1,7 @@
+{
+  "name": "mymetricapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
